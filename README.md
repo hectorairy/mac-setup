@@ -10,7 +10,7 @@ These are my preferred settings for `Desktop`, `Finder` and the `Dock`.
 
 Trackpad, Active Tap to click
 
-I don't like the new Desktop, Stage Manager or Widget features in Sonoma, so I disable them.
+I don't like the new Desktop, Stage Manager or Widget features in new versions of macOS, so I disable them.
 
 - System Preferences
   - Desktop & Dock
@@ -32,7 +32,7 @@ I don't like the new Desktop, Stage Manager or Widget features in Sonoma, so I d
   - General -> New Finder windows show -> Home Folder
     - I prefer to see my home folder in each new finder window instead of recent documents
   - Remove all tags
-  - Sidebar shos apps, desktiop, documens, download, home and development
+  - Sidebar show a Home, Downloads, Documents, Applications and Desktop
   - Advanced -> Show all filename extensions -> Yes
   - Advanced -> Show warning before changing an extension -> No
   - Advanced -> When performing a search -> Search the current folder
@@ -77,7 +77,19 @@ keyboard
 keyboad shortcuts
 show spotlight seach option space
 
-sho raycast in menu bar no
+show raycast in menu bar no
+
+Then I put all my shortcuts in raycast window managment
+
+Open settings -> Extensions 
+  Window managment
+    Center Three Fourths - ALT + CMD + C
+    Left half - ALT + CMD + <-
+    Maximize - ALT + CMD + ENTER
+    Restore - ALT + CMD + DEL
+    Right half - ALT + CMD + ->
+  Clipboard History
+    Clipboard History - CMD + SHIFT + V
 
 ## Homebrew
 
@@ -143,7 +155,6 @@ brew install stats
 ```
 
 Show ram
-Network speed
 Battery (merge icons)
 Clock (E d MMMM h:mm a)
 
@@ -151,46 +162,18 @@ Clock (E d MMMM h:mm a)
 
 ## Other Apps I Use Daily
 
-- [keepingyouawake](https://keepingyouawake.app/) - Prevents my Mac from going to sleep when I'm presenting / live streaming
-- [vlc](https://www.videolan.org/) - I use VLC to watch videos instead of the built in QuickTime.
-- [kap](https://getkap.co/) - Screen recorder / gif maker
-- [visual-studio-code](https://code.visualstudio.com/) - Code Editor
-  Bitwarden
+- [kap](https://getkap.co/) - Screen recorder / gif maker (Homebrew)
+- [Bitwarden](https://bitwarden.com/es-la/) - Password manager (Homebrew)
+- [Spotify](https://open.spotify.com/) - Music streaming platform (Homebrew)
+- [Boring Notch](https://theboring.name/) - Customizable macOS notch tool
+- [AppCleaner](https://freemacsoft.net/appcleaner/) - Uninstall apps completely on macOS (Homebrew)
+- [Obsidian](https://obsidian.md/) - Markdown-based note-taking and knowledge management (Homebrew)
+- [Notion Calendar](https://www.notion.com/product/calendar) - Calendar app by Notion for scheduling and time-blocking (Homebrew)
 
-You can install them in one go by placing them all into a text file and then running brew install:
-
-```
-keepingyouawake
-vlc
-kap
-visual-studio-code
-bitwarden
-```
+### OrbStack (Docker)
 
 ```sh
-xargs brew install < apps.txt
-```
-
-### Docker
-
-There are multiple results when you search `docker` within `brew`. To install Docker desktop:
-
-```sh
-brew install --cask docker
-```
-
-## Terminal
-
-I prefer [Warp](https://warp.dev/) because:
-
-- Lots of customization options
-- Clickable links
-- Native OS notifications
-
-There are a lot of options for a terminal replacement, but I've been using Warp for years and it works great for my needs.
-
-```
-brew install --cask warp
+brew install --cask orbstack
 ```
 
 ### Github SSH Setup
