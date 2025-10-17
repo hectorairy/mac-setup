@@ -207,3 +207,47 @@ Install yarn and upgrade npm
 npm install -g npm
 npm install -g yarn
 ```
+Install Ghostty https://ghostty.org/
+Install fish shell and set as a default https://fishshell.com/
+Install zoxide https://github.com/ajeetdsouza/zoxide
+Install atuin https://atuin.sh/
+Install carapace https://carapace.sh/
+Install starship https://starship.rs/
+Install volta https://volta.sh/
+
+Zen browser
+Extensions 
+    Install uBlockOrigin, Bitwarden, I don't care about cookies, Dark reader and Surfing Keys
+Settings
+    General
+        Open previous windows and tabs
+        Continue where you left off
+        Ctrl+Tab cycles through tabs in recently used order
+        Set as a default browser
+        Always ask you where to save files
+    Search
+        Show recent searches off
+    Security
+        Ask to save passwords off
+        Save and fill payment methods off
+    Advanced Settings
+        To disable translations popip enter about:config in the address bar and set browser.translations.automaticallyPopup = false.
+
+
+Install Lazyvim https://www.lazyvim.org/
+    Requirements
+        Neovim
+        Git
+        A Nerd Font(IosevkaTerm Nerd Font)
+        Lazygit (optional)
+        Tree-sitter-cli and a C compiler for nvim-treesitter
+            Install gcc and tree-sitter with brew (you can use cargo, too)
+        Curl for blink.cmp (completion engine)
+        For fzf-lua (optional)
+            fzf: fzf (v0.25.1 or greater)
+            live grep: ripgrep
+            find files: fd
+        A terminal that support true color and undercurl:
+            In my case I use Ghostty (Linux, Macos & Windows)
+
+I used to customize modifier keys and change Caps Lock to work as Control it is in system preferences
